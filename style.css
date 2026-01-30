@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background: url("food-4k-spdnpz7bhmx4kv2r.webp");
+    backdrop-filter: blur(12px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-content{
+    
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo i{
+    
+    font-size: 3rem;
+ 
+}
+
+.menu-bar i{
+    left: 2px;
+    color: #fff;
+    font-size: 2rem;
+    transition: 1s;
+}
+
+.menu-bar i:hover{
+    color: orange;
+    
+}
+.nav-logo{
+    color:orange;
+    font-size: 2rem;
+    font-weight: 550;
+}
+
+.nav-content a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #fff;
+    transition: 1s;
+
+}
+
+.nav-content a1{
+    color: #fff;
+    border-radius: .313rem;
+    font-size: 1.25rem;
+    background-color: orange;
+    padding: .625rem 1.875rem .625rem 1.875rem;
+}
+
+.nav-content a:hover,
+.nav-content a.active{
+    color: orange;
+}
+
+.home{
+    color: #fff;
+    text-align: left;
+    display: flex;
+    margin-left: 2.5rem;
+    align-items: center;
+    justify-content: left;
+    height: 100vh;
+}
+
+.home-content p{
+    font-size: 1rem;
+}
+
+.home-content h1{
+    font-size: 3.438rem;
+}
+
+.home-content h2{
+    font-size: 3.438rem;
+}
+
+.home-btn{
+    color: #fff;
+    font-size: 1.25rem;
+    border-radius:.313rem ;
+    margin-top: 1.25rem;
+    text-align:center;
+    width: 20%;
+    padding:.625rem 1.875rem .625rem 1rem ;
+    color: #fff;
+    background-color: orange;
+}
+
+.home-btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.home-img{
+    position: static;
+    margin-left: 100px;
+    background-image: url("img.png");
+    background-repeat: no-repeat;
+    height: 37.5rem;
+    width: 37.5rem;
+    -webkit-animation: spin 1s linear infinite;
+   -moz-animation: rotate 1s linear infinite;
+   animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate{
+    100%{-webkit-transform: rotate(360deg);  }
+}
+
+
+#select-bar{
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    color: #fff;
+    outline: none;
+}
+
+#select-bar option{
+    color: black;
+}
+
